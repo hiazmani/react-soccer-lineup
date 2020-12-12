@@ -1,7 +1,5 @@
 .app {
-
     .container {
-
         width: 100%;
         text-align: center;
 
@@ -11,7 +9,6 @@
         }
 
         .pitch {
-
             margin: 0 auto;
 
             @media (min-width: 960px) {
@@ -22,13 +19,11 @@
         }
 
         .controls {
-
             margin: 2em;
             text-align: left;
             display: inline-flex;
 
             .pattern {
-
                 margin: 0 2.5vw 0 0;
 
                 .p-dropdown {
@@ -37,11 +32,9 @@
             }
 
             .color {
-
                 margin: 0 2.5vw;
 
                 .colorpicker {
-
                     display: inline-flex;
 
                     p {
@@ -50,15 +43,12 @@
                         line-height: 1.95em;
                     }
                 }
-
             }
 
             .teams {
-
                 margin: 0 0 0 2.5vw;
 
                 .checkboxes {
-
                     display: inline-flex;
 
                     .home {
@@ -68,11 +58,8 @@
                     .away {
                         margin: 0 0 0 1vw;
                     }
-
                 }
-
             }
-
         }
     }
 }
