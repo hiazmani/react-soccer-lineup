@@ -10,12 +10,19 @@
     .player {
         position: relative;
         border-radius: 50%;
-        padding-top: 45px;
-        @media (max-width: 1000) {
-            width: 8vw;
-            height: 8vw;
+        // padding-top: 4vw;
+        // width: 4vw;
+        @media (max-width: 1000px) {
+            // padding-top: 8vw;
+            width: 4vw;
+            height: 4vw;
         }
-        width: 45px;
+        @media (min-width: 1000px) {
+            padding-top: 4vw;
+            width: 4vw;
+            height: 4vw;
+        }
+        // width: 45px;
 
         .number {
             position: absolute;
@@ -23,7 +30,7 @@
             top: 50%;
             transform: translate(-50%, -50%);
             @media (max-width: 1000) {
-                font-size: 5vw;
+                font-size: 4vw;
             }
         }
 
@@ -34,8 +41,11 @@
             transform: translate(-50%, 100%);
             color: black;
             font-weight: bold;
-            @media (max-width: 1000) {
-                font-size: 5vw;
+            @media (max-width: 1000px) {
+                font-size: 1vh;
+            }
+            @media (min-width: 1000px) {
+                font-size: 1.5vw;
             }
 
             white-space: nowrap;
